@@ -13,7 +13,7 @@
 @end
 
 @implementation MainViewController
-@synthesize mapView, camera = _camera;
+@synthesize mapView, camera;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,13 +26,14 @@
 
 - (void)viewDidLoad
 {
-	GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:6.2012
+	camera = [GMSCameraPosition cameraWithLatitude:6.2012
 															longitude:-75.5784
 																 zoom:18];
 	
 	mapView = [GMSMapView mapWithFrame:[self view].bounds
 								camera:camera];
 	
+	[mapView setDelegate:self];
 	[mapView setBuildingsEnabled:YES];
 	[mapView setMyLocationEnabled:YES];
 	[mapView setMapType:kGMSTypeHybrid];
@@ -46,6 +47,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - GoogleMaps View Delegate
+
+- (void)mapView:(GMSMapView *)mapView willMove:(BOOL)gesture {
+	NSLog(@"Moving...");
 }
 
 @end

@@ -26,10 +26,11 @@
 		203CFA56180779FC00197689 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203CFA55180779FC00197689 /* OpenGLES.framework */; };
 		203CFA5818077A1200197689 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203CFA5718077A1200197689 /* QuartzCore.framework */; };
 		203CFA5A18077A1E00197689 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203CFA5918077A1E00197689 /* SystemConfiguration.framework */; };
-		203CFA5C18077A7C00197689 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203CFA5B18077A7C00197689 /* GoogleMaps.framework */; };
 		203CFA5F18077C5200197689 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203CFA5E18077C5200197689 /* Storyboard.storyboard */; };
 		203CFA6218077C8700197689 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203CFA6118077C8700197689 /* MainViewController.m */; };
-		203CFA641807826600197689 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 203CFA631807826600197689 /* GoogleMaps.bundle */; };
+		203CFA661807B87600197689 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 203CFA651807B87600197689 /* GoogleMaps.bundle */; };
+		203CFA681807B87F00197689 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203CFA671807B87F00197689 /* GoogleMaps.framework */; };
+		203CFA6B1807B9E300197689 /* MOServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 203CFA6A1807B9E300197689 /* MOServices.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,12 +58,14 @@
 		203CFA55180779FC00197689 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		203CFA5718077A1200197689 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		203CFA5918077A1E00197689 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		203CFA5B18077A7C00197689 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		203CFA5D18077B1D00197689 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		203CFA5E18077C5200197689 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		203CFA6018077C8700197689 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		203CFA6118077C8700197689 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		203CFA631807826600197689 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		203CFA651807B87600197689 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		203CFA671807B87F00197689 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		203CFA691807B9E300197689 /* MOServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOServices.h; sourceTree = "<group>"; };
+		203CFA6A1807B9E300197689 /* MOServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOServices.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +87,7 @@
 				203CFA441807799F00197689 /* AVFoundation.framework in Frameworks */,
 				203CFA17180777AC00197689 /* CoreGraphics.framework in Frameworks */,
 				203CFA19180777AC00197689 /* UIKit.framework in Frameworks */,
-				203CFA5C18077A7C00197689 /* GoogleMaps.framework in Frameworks */,
+				203CFA681807B87F00197689 /* GoogleMaps.framework in Frameworks */,
 				203CFA15180777AC00197689 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -112,7 +115,7 @@
 		203CFA13180777AC00197689 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				203CFA5B18077A7C00197689 /* GoogleMaps.framework */,
+				203CFA671807B87F00197689 /* GoogleMaps.framework */,
 				203CFA5918077A1E00197689 /* SystemConfiguration.framework */,
 				203CFA5718077A1200197689 /* QuartzCore.framework */,
 				203CFA55180779FC00197689 /* OpenGLES.framework */,
@@ -136,7 +139,7 @@
 		203CFA1A180777AC00197689 /* Mapa EAFIT */ = {
 			isa = PBXGroup;
 			children = (
-				203CFA631807826600197689 /* GoogleMaps.bundle */,
+				203CFA651807B87600197689 /* GoogleMaps.bundle */,
 				203CFA23180777AC00197689 /* AppDelegate.h */,
 				203CFA24180777AC00197689 /* AppDelegate.m */,
 				203CFA26180777AC00197689 /* Images.xcassets */,
@@ -144,6 +147,8 @@
 				203CFA5E18077C5200197689 /* Storyboard.storyboard */,
 				203CFA6018077C8700197689 /* MainViewController.h */,
 				203CFA6118077C8700197689 /* MainViewController.m */,
+				203CFA691807B9E300197689 /* MOServices.h */,
+				203CFA6A1807B9E300197689 /* MOServices.m */,
 			);
 			path = "Mapa EAFIT";
 			sourceTree = "<group>";
@@ -214,7 +219,7 @@
 				203CFA1F180777AC00197689 /* InfoPlist.strings in Resources */,
 				203CFA27180777AC00197689 /* Images.xcassets in Resources */,
 				203CFA5F18077C5200197689 /* Storyboard.storyboard in Resources */,
-				203CFA641807826600197689 /* GoogleMaps.bundle in Resources */,
+				203CFA661807B87600197689 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +233,7 @@
 				203CFA25180777AC00197689 /* AppDelegate.m in Sources */,
 				203CFA6218077C8700197689 /* MainViewController.m in Sources */,
 				203CFA21180777AC00197689 /* main.m in Sources */,
+				203CFA6B1807B9E300197689 /* MOServices.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +331,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/molayab/Developer/Xcode\\ Projects/Mapa\\ EAFIT",
+					"/Users/molayab/Developer/Xcode\\ Projects/GoogleMaps-iOS-EAFIT",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mapa EAFIT/Mapa EAFIT-Prefix.pch";
@@ -344,6 +351,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/molayab/Developer/Xcode\\ Projects/Mapa\\ EAFIT",
+					"/Users/molayab/Developer/Xcode\\ Projects/GoogleMaps-iOS-EAFIT",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mapa EAFIT/Mapa EAFIT-Prefix.pch";
@@ -374,6 +382,7 @@
 				203CFA3F180777AC00197689 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

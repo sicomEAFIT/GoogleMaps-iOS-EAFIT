@@ -26,18 +26,24 @@
 
 - (void)viewDidLoad
 {
-	camera = [GMSCameraPosition cameraWithLatitude:6.2012
-															longitude:-75.5784
-																 zoom:18];
-	
-	mapView = [GMSMapView mapWithFrame:[self view].bounds
-								camera:camera];
-	
+    //Se define la ubicacion inicial y el zoom
+	camera = [GMSCameraPosition cameraWithLatitude:6.2012 longitude:-75.5784 zoom:18];
+	//Se define el mapa pasandole el rectangulo y la ubicacion
+    mapView = [GMSMapView mapWithFrame:[self view].bounds camera:camera];
+	//Se configura las opciones del mapa
 	[mapView setDelegate:self];
 	[mapView setBuildingsEnabled:YES];
 	[mapView setMyLocationEnabled:YES];
 	[mapView setMapType:kGMSTypeHybrid];
 
+    
+    //Crea un marker
+    GMSMarker *marker = [[GMSMarker alloc] init];
+    marker.position = CLLocationCoordinate2DMake(6.2012, -75.5784);
+    marker.title = @"Biblioteca";
+    marker.snippet = @"Bl32, Biblioteca Luis Echavarría Villegas";
+    marker.map = mapView;
+    
 	[[self view] addSubview:mapView];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.

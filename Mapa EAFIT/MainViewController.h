@@ -9,10 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <GoogleMaps/GoogleMaps.h>
 
-@interface MainViewController : UIViewController
-{
-	
-}
+@interface MainViewController : UIViewController <GMSMapViewDelegate>
 
 @property (nonatomic, strong) GMSMapView * mapView;
 @property (nonatomic, strong) GMSCameraPosition * camera;

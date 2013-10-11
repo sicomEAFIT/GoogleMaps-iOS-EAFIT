@@ -25,10 +25,7 @@ Para mantener un orden en el proyecto al momento de trabajar en este en el area 
 // Esta clase se conecta con el servidor remoto y descarga los "Markers" que seran
 // puestos en el mapa de la universidad, asi como otros recursos almacenados.
 //
-
 #import "MOServices.h"
-
 @implementation MOServices
-
 @end
  ```

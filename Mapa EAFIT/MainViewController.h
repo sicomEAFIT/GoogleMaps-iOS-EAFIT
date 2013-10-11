@@ -11,7 +11,9 @@
 
 @interface MainViewController : UIViewController <GMSMapViewDelegate>
 
+//Instancia principal de GoogleMaps
 @property (nonatomic, strong) GMSMapView * mapView;
+//Instancia para definir la ubicacion de la pantalla en GoogleMaps
 @property (nonatomic, strong) GMSCameraPosition * camera;
 
 @end

@@ -32,13 +32,13 @@ Para mantener un orden en el proyecto al momento de trabajar en este en el area 
 Agradecimientos
 ============
 
-Se agradece a los integrantes del equipo iOS, los responsables del código desarrollado
+Se agradece a los integrantes del equipo iOS, los responsables del cï¿½digo desarrollado
   * Alejandro Carmona Ramirez
   * Mateo Olaya Bernal 
   * David Romero
   
   Licencia
-  ======
+  ========
   
   ** Por especificar 
   

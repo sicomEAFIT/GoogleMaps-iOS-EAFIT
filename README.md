@@ -36,7 +36,7 @@ Al momento de entrar por primera vez en la aplicacion se encontrara con el mapa 
 ###Vista de entrada
 <p style="text-align:center"> <img src="https://dl.dropboxusercontent.com/s/b8kbi3jzochwzng/46542056.png?token_hash=AAHL7hx8G8vv98JzF3ZSL85PF3W3jgrsD873rQUU1XIiEw&dl=1" height="480px" width="320px" /> </p>
 
-La descripci�n puede tener im�genes, listas de sub-puntos de inter�s, por ejemplo: salones, auditorios, oficiosas, etc. [Actualmente en construcci�n]. Si un Marker tiene asociado una descripci�n al presionar este, se har� una transici�n a una vista donde se mostrara la informaci�n referente al Marker, por otro lado, si no tiene una descripci�n asociada, como sucede con los bloques 33, 34 y 35, aparecer� una nube encima de el Marker con una descripci�n general de este sitio (sin hacer transiciones).
+La descripcion puede tener imagenes, listas de sub-puntos de interes, por ejemplo: salones, auditorios, oficiosas, etc. [Actualmente en construccion]. Si un Marker tiene asociado una descripcion al presionar este, se hare una transicion a una vista donde se mostrara la informacon referente al Marker, por otro lado, si no tiene una descripcion asociada, como sucede con los bloques 33, 34 y 35, aparecera una nube encima de el Marker con una descripcion general de este sitio (sin hacer transiciones).
 
 ###Vista de marker sin detalles asociados
 <p style="text-align:center"> <img src="https://dl.dropboxusercontent.com/s/0juho4dap7l3yc9/45642614564.png?token_hash=AAFzKzdVv413x48GFgVQC_7D-o-QpfKDccsug8XHiTrtcQ&dl=1" height="480px" width="320px" /> </p>
@@ -47,7 +47,7 @@ La descripci�n puede tener im�genes, listas de sub-puntos de inter�s, por 
 Agradecimientos
 ============
 
-Se agradece a los integrantes del equipo iOS, los responsables del c�digo desarrollado
+Se agradece a los integrantes del equipo iOS, los responsables del codigo desarrollado
   * Alejandro Carmona Ramirez
   * Mateo Olaya Bernal 
   * David Romero

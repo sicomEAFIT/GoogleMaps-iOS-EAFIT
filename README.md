@@ -47,13 +47,13 @@ La descripción puede tener imágenes, listas de sub-puntos de interés, por ejempl
 Agradecimientos
 ============
 
-Se agradece a los integrantes del equipo iOS, los responsables del cï¿½digo desarrollado
+Se agradece a los integrantes del equipo iOS, los responsables del código desarrollado
   * Alejandro Carmona Ramirez
   * Mateo Olaya Bernal 
   * David Romero
   
   Licencia
-  ========
+  ======
   
   ** Por especificar 
   

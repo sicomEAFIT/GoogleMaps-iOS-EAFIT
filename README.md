@@ -3,7 +3,7 @@ GoogleMaps-iOS-EAFIT
 
 Google Maps [iOS] EAFIT, es un proyecto desarrollado por el semillero de investigacion movil SICOM de la universidad EAFIT de Medellin, para crear un mapa interactivo de dicha universidad, para el uso de todos los estudiantes y visitantes, el cual muestre informacion relevante de los bloques y lugares de interes usando las tecnologias de mapeo de Google. 
 
-El presente codigo es la version para dispositivos iOS codificada en Objective-C y C++, desarrollada por Mateo Olaya y Google Inc.
+El presente codigo es la version para dispositivos iOS codificada en Objective-C y C++.
 
 Como trabajar en el proyecto iOS
 ================================
@@ -29,3 +29,16 @@ Para mantener un orden en el proyecto al momento de trabajar en este en el area 
 @implementation CMCore
 @end
  ```
+Agradecimientos
+============
+
+Se agradece a los integrantes del equipo iOS, los responsables del código desarrollado
+  * Alejandro Carmona Ramirez
+  * Mateo Olaya Bernal 
+  * David Romero
+  
+  Licencia
+  ======
+  
+  ** Por especificar 
+  

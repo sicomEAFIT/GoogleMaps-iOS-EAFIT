@@ -28,7 +28,8 @@
 		203CFA5A18077A1E00197689 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203CFA5918077A1E00197689 /* SystemConfiguration.framework */; };
 		203CFA5F18077C5200197689 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203CFA5E18077C5200197689 /* Storyboard.storyboard */; };
 		203CFA6218077C8700197689 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203CFA6118077C8700197689 /* MainViewController.m */; };
-		20B696141808E02A00C7933F /* CVCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B696131808E02A00C7933F /* CVCore.m */; };
+		20B696141808E02A00C7933F /* CMCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B696131808E02A00C7933F /* CMCore.m */; };
+		20B696171809092900C7933F /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B696161809092900C7933F /* DetailsViewController.m */; };
 		59035F8618084D5E00842AF2 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 59035F8518084D5E00842AF2 /* GoogleMaps.bundle */; };
 		59035F871808505600842AF2 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203CFA671807B87F00197689 /* GoogleMaps.framework */; };
 /* End PBXBuildFile section */
@@ -63,8 +64,10 @@
 		203CFA6018077C8700197689 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		203CFA6118077C8700197689 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		203CFA671807B87F00197689 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
-		20B696121808E02A00C7933F /* CVCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVCore.h; sourceTree = "<group>"; };
-		20B696131808E02A00C7933F /* CVCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVCore.m; sourceTree = "<group>"; };
+		20B696121808E02A00C7933F /* CMCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMCore.h; sourceTree = "<group>"; };
+		20B696131808E02A00C7933F /* CMCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMCore.m; sourceTree = "<group>"; };
+		20B696151809092900C7933F /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		20B696161809092900C7933F /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		59035F8518084D5E00842AF2 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,8 +150,10 @@
 				203CFA5E18077C5200197689 /* Storyboard.storyboard */,
 				203CFA6018077C8700197689 /* MainViewController.h */,
 				203CFA6118077C8700197689 /* MainViewController.m */,
-				20B696121808E02A00C7933F /* CVCore.h */,
-				20B696131808E02A00C7933F /* CVCore.m */,
+				20B696121808E02A00C7933F /* CMCore.h */,
+				20B696131808E02A00C7933F /* CMCore.m */,
+				20B696151809092900C7933F /* DetailsViewController.h */,
+				20B696161809092900C7933F /* DetailsViewController.m */,
 			);
 			path = "Mapa EAFIT";
 			sourceTree = "<group>";
@@ -231,7 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				203CFA25180777AC00197689 /* AppDelegate.m in Sources */,
-				20B696141808E02A00C7933F /* CVCore.m in Sources */,
+				20B696171809092900C7933F /* DetailsViewController.m in Sources */,
+				20B696141808E02A00C7933F /* CMCore.m in Sources */,
 				203CFA6218077C8700197689 /* MainViewController.m in Sources */,
 				203CFA21180777AC00197689 /* main.m in Sources */,
 			);

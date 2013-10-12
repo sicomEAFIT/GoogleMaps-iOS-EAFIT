@@ -8,9 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import <GoogleMaps/GoogleMaps.h>
-#import "CVCore.h"
+#import "CMCore.h"
+#import "DetailsViewController.h"
 
 @interface MainViewController : UIViewController <GMSMapViewDelegate>
+{
+	__strong CMCore * core;
+	__strong NSMutableArray * localDatabase;
+}
 
 //Instancia principal de GoogleMaps
 @property (nonatomic, strong) GMSMapView * mapView;

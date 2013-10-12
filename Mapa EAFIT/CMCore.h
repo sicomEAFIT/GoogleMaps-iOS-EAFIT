@@ -15,14 +15,15 @@ typedef enum {
 	eventMarker
 } CVMarkerType;
 
-@interface CVMarker : NSObject
+@interface CMMarker : NSObject
 @property (nonatomic, strong) NSString * name;
 @property (nonatomic, strong) NSString * locationTitle;
+@property (nonatomic, strong) NSArray * details;
 @property (nonatomic) CLLocationCoordinate2D coordinate;
 @property (nonatomic) CVMarkerType type;
 
-+ (CVMarker *)markerWithName:(NSString *)nameTitle locationTitle:(NSString *)loctitle coordinates:(CLLocationCoordinate2D)coord;
-+ (CVMarker *)markerWithName:(NSString *)nameTitle coordinates:(CLLocationCoordinate2D)coord;
++ (CMMarker *)markerWithName:(NSString *)nameTitle locationTitle:(NSString *)loctitle coordinates:(CLLocationCoordinate2D)coord details:(NSArray *)det;
++ (CMMarker *)markerWithName:(NSString *)nameTitle coordinates:(CLLocationCoordinate2D)coord details:(NSArray *)det;
 
 - (GMSMarker *)marker; // Retorna el marcador para ser usado en GMSMapView.
 
@@ -32,7 +33,7 @@ typedef enum {
 //@protocol CVCoreDelegate <NSObject>
 //@end
 
-@interface CVCore : NSObject
+@interface CMCore : NSObject
 {
 	NSMutableArray * markers;
 }

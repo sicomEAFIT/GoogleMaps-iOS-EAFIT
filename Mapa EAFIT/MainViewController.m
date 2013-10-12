@@ -37,12 +37,11 @@
 	[mapView setMapType:kGMSTypeHybrid];
 
     
-    //Crea un marker
-    GMSMarker *marker = [[GMSMarker alloc] init];
-    marker.position = CLLocationCoordinate2DMake(6.2012, -75.5784);
-    marker.title = @"Biblioteca";
-    marker.snippet = @"Bl32, Biblioteca Luis Echavarría Villegas";
-    marker.map = mapView;
+    CVCore *core = [[CVCore alloc] init];
+	
+	for (CVMarker * marker in [core markers]) {
+		[[marker marker] setMap:mapView];
+	}
     
 	[[self view] addSubview:mapView];
     [super viewDidLoad];

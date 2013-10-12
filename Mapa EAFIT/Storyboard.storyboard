@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
-        <!--Main View Controller - EAFIT-->
+        <!--Main View Controller - Universidad EAFIT-->
         <scene sceneID="GbP-Si-7zp">
             <objects>
                 <viewController id="GoI-Ph-v6o" customClass="MainViewController" sceneMemberID="viewController">
@@ -17,7 +17,9 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="EAFIT" id="Mnx-yj-Gu8"/>
+                    <navigationItem key="navigationItem" title="Universidad EAFIT" id="Mnx-yj-Gu8">
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="8Aa-Iw-yjK"/>
+                    </navigationItem>
                     <connections>
                         <segue destination="yjs-W8-0I6" kind="push" identifier="block_details_segue" id="Yux-ay-tEG"/>
                     </connections>

@@ -10,11 +10,11 @@ Como trabajar en el proyecto iOS
 
 Para mantener un orden en el proyecto al momento de trabajar en este en el area de iOS, se debera llevar la siguientes convenciones, FAVOR NO CAMBIAR LA CONVENCION Y REVISAR BIEN ANTES DE HACER UN COMMIT.
 
- * Todo archivo .m y su correspondiente cabecera .h deberan anteponer en mayuscula las iniciales (primer nombre Y primer apellido) del usuario que lo creo seguido del nombre de la clase que tiene asociada dicho archivo con la primera letra en mayuscula, de la siguiente manera, para el usuario Mateo Olaya Bernal y la clase _services_ se debera crear los archivos como : __MOServices.m__ y __MOServices.h__.
+ * Todo archivo .m y su correspondiente cabecera .h deberan anteponer en mayuscula las iniciales del proyecto Campus Movil __CM__ seguido del nombre de la clase que tiene asociada dicho archivo con la primera letra en mayuscula, de la siguiente manera, para la clase _core_ se debera crear los archivos como : __CMCore.m__ y __CMCore.h__.
 
  * Todo archivo credo debe tener en la cabecera el autor, fecha y breve descripcion del funcionamiento de la clase, de la siguiente manera:
  ```objective-c
-//  MOServices.m
+//  CMCore.m
 //  Mapa EAFIT
 //
 //  Created by Mateo Olaya Bernal on 10/10/13.
@@ -25,7 +25,7 @@ Para mantener un orden en el proyecto al momento de trabajar en este en el area 
 // Esta clase se conecta con el servidor remoto y descarga los "Markers" que seran
 // puestos en el mapa de la universidad, asi como otros recursos almacenados.
 //
-#import "MOServices.h"
-@implementation MOServices
+#import "CMCore.h"
+@implementation CMCore
 @end
  ```

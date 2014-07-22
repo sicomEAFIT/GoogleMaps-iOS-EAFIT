@@ -56,6 +56,23 @@
 
 @implementation CMCore
 
+- (id)init{
+    
+    if (self =[super init]) {
+        
+        manager =[AFHTTPRequestOperationManager manager];
+        
+        [manager setRequestSerializer:[AFJSONRequestSerializer serializer]];
+        [manager setResponseSerializer:[AFJSONResponseSerializer serializer]];
+    
+        manager.responseSerializer.acceptableContentTypes = [manager.responseSerializer.acceptableContentTypes setByAddingObject:@"text/html"];
+        
+    }
+    
+    return self;
+
+}
+
 - (void)update
 {
 	// Connectar a la base de datos y descargar (actualizar) los marcadores almacenados alli.
@@ -91,5 +108,67 @@
 							  details:@[@""]]
 			 ];
 }
+
+- (void)logInWhitUserName:(NSString *)userName
+                 password:(NSString *)userPass
+                serviceID:(NSString *)serviceName;
+{
+    
+
+    
+    NSDictionary * jsonSend = @{@"username":userName,@"password":userPass,@"Service":serviceName};
+    //creamos la conexión al servicio
+    [manager POST:self.url parameters:jsonSend success:^(AFHTTPRequestOperation *operation, id response){
+        
+        NSDictionary * dic = (NSDictionary *) response;
+        
+        
+        if ([dic objectForKey:@"error"]) {
+            //asignamos el delegado
+            [_delegate connection:self didReceiveData:dic withError:YES];
+        } else {
+            [_delegate connection:self didReceiveData:dic withError:NO];
+        }
+        
+        
+    }failure:^(AFHTTPRequestOperation *operation,NSError *error){
+        NSLog(@"%@", error.localizedDescription);
+        [_delegate connection:self didError:error];
+    }];
+    
+
+}
+
+-(void)registerWithUserName:(NSString *)userName
+                      email:(NSString *)userEmail
+                   password:(NSString *)userPass
+                  serviceID:(NSString *)serviceName{
+    
+    
+    NSDictionary * jsonSend = @{@"username":userName,@"Email":userEmail,@"password":userPass,@"Service":serviceName};
+    //creamos la conexión al servicio
+    [manager POST:self.url parameters:jsonSend success:^(AFHTTPRequestOperation *operation, id response){
+        
+        NSDictionary * dic = (NSDictionary *) response;
+        
+        
+        if ([dic objectForKey:@"error"]) {
+            //asignamos el delegado
+            [_delegate connection:self didReceiveData:dic withError:YES];
+        } else {
+            [_delegate connection:self didReceiveData:dic withError:NO];
+        }
+        
+        
+    }failure:^(AFHTTPRequestOperation *operation,NSError *error){
+        NSLog(@"%@", error.localizedDescription);
+        [_delegate connection:self didError:error];
+    }];
+
+
+    
+    
+}
+
 
 @end

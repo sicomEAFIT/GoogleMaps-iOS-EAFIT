@@ -30,8 +30,17 @@
 		203CFA6218077C8700197689 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203CFA6118077C8700197689 /* MainViewController.m */; };
 		20B696141808E02A00C7933F /* CMCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B696131808E02A00C7933F /* CMCore.m */; };
 		20B696171809092900C7933F /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B696161809092900C7933F /* DetailsViewController.m */; };
-		59035F8618084D5E00842AF2 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 59035F8518084D5E00842AF2 /* GoogleMaps.bundle */; };
-		59035F871808505600842AF2 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203CFA671807B87F00197689 /* GoogleMaps.framework */; };
+		65437345197F0C67009A2593 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65437344197F0C67009A2593 /* GoogleMaps.framework */; };
+		65437347197F0C91009A2593 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 65437346197F0C91009A2593 /* GoogleMaps.bundle */; };
+		6543735C197F0CE3009A2593 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6543734A197F0CE3009A2593 /* AFHTTPRequestOperation.m */; };
+		6543735D197F0CE3009A2593 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6543734C197F0CE3009A2593 /* AFHTTPRequestOperationManager.m */; };
+		6543735E197F0CE3009A2593 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6543734E197F0CE3009A2593 /* AFHTTPSessionManager.m */; };
+		6543735F197F0CE3009A2593 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65437351197F0CE3009A2593 /* AFNetworkReachabilityManager.m */; };
+		65437360197F0CE3009A2593 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65437353197F0CE3009A2593 /* AFSecurityPolicy.m */; };
+		65437361197F0CE3009A2593 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65437355197F0CE3009A2593 /* AFURLConnectionOperation.m */; };
+		65437362197F0CE3009A2593 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 65437357197F0CE3009A2593 /* AFURLRequestSerialization.m */; };
+		65437363197F0CE3009A2593 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 65437359197F0CE3009A2593 /* AFURLResponseSerialization.m */; };
+		65437364197F0CE3009A2593 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6543735B197F0CE3009A2593 /* AFURLSessionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,12 +72,31 @@
 		203CFA5E18077C5200197689 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		203CFA6018077C8700197689 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		203CFA6118077C8700197689 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		203CFA671807B87F00197689 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		20B696121808E02A00C7933F /* CMCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMCore.h; sourceTree = "<group>"; };
 		20B696131808E02A00C7933F /* CMCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMCore.m; sourceTree = "<group>"; };
 		20B696151809092900C7933F /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
 		20B696161809092900C7933F /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
-		59035F8518084D5E00842AF2 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		65437344197F0C67009A2593 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		65437346197F0C91009A2593 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		65437349197F0CE3009A2593 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		6543734A197F0CE3009A2593 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		6543734B197F0CE3009A2593 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		6543734C197F0CE3009A2593 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		6543734D197F0CE3009A2593 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		6543734E197F0CE3009A2593 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		6543734F197F0CE3009A2593 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		65437350197F0CE3009A2593 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		65437351197F0CE3009A2593 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		65437352197F0CE3009A2593 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		65437353197F0CE3009A2593 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		65437354197F0CE3009A2593 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		65437355197F0CE3009A2593 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		65437356197F0CE3009A2593 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		65437357197F0CE3009A2593 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		65437358197F0CE3009A2593 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		65437359197F0CE3009A2593 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		6543735A197F0CE3009A2593 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		6543735B197F0CE3009A2593 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +104,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59035F871808505600842AF2 /* GoogleMaps.framework in Frameworks */,
 				203CFA5A18077A1E00197689 /* SystemConfiguration.framework in Frameworks */,
 				203CFA5818077A1200197689 /* QuartzCore.framework in Frameworks */,
 				203CFA56180779FC00197689 /* OpenGLES.framework in Frameworks */,
@@ -91,6 +118,7 @@
 				203CFA441807799F00197689 /* AVFoundation.framework in Frameworks */,
 				203CFA17180777AC00197689 /* CoreGraphics.framework in Frameworks */,
 				203CFA19180777AC00197689 /* UIKit.framework in Frameworks */,
+				65437345197F0C67009A2593 /* GoogleMaps.framework in Frameworks */,
 				203CFA15180777AC00197689 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,8 +146,8 @@
 		203CFA13180777AC00197689 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				59035F8518084D5E00842AF2 /* GoogleMaps.bundle */,
-				203CFA671807B87F00197689 /* GoogleMaps.framework */,
+				65437346197F0C91009A2593 /* GoogleMaps.bundle */,
+				65437344197F0C67009A2593 /* GoogleMaps.framework */,
 				203CFA5918077A1E00197689 /* SystemConfiguration.framework */,
 				203CFA5718077A1200197689 /* QuartzCore.framework */,
 				203CFA55180779FC00197689 /* OpenGLES.framework */,
@@ -143,17 +171,15 @@
 		203CFA1A180777AC00197689 /* Mapa EAFIT */ = {
 			isa = PBXGroup;
 			children = (
+				65437348197F0CE3009A2593 /* AFNetworking */,
 				203CFA23180777AC00197689 /* AppDelegate.h */,
 				203CFA24180777AC00197689 /* AppDelegate.m */,
 				203CFA26180777AC00197689 /* Images.xcassets */,
 				203CFA1B180777AC00197689 /* Supporting Files */,
 				203CFA5E18077C5200197689 /* Storyboard.storyboard */,
-				203CFA6018077C8700197689 /* MainViewController.h */,
-				203CFA6118077C8700197689 /* MainViewController.m */,
+				65437365197F0D17009A2593 /* Controllers */,
 				20B696121808E02A00C7933F /* CMCore.h */,
 				20B696131808E02A00C7933F /* CMCore.m */,
-				20B696151809092900C7933F /* DetailsViewController.h */,
-				20B696161809092900C7933F /* DetailsViewController.m */,
 			);
 			path = "Mapa EAFIT";
 			sourceTree = "<group>";
@@ -168,6 +194,43 @@
 				203CFA22180777AC00197689 /* Mapa EAFIT-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65437348197F0CE3009A2593 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				65437349197F0CE3009A2593 /* AFHTTPRequestOperation.h */,
+				6543734A197F0CE3009A2593 /* AFHTTPRequestOperation.m */,
+				6543734B197F0CE3009A2593 /* AFHTTPRequestOperationManager.h */,
+				6543734C197F0CE3009A2593 /* AFHTTPRequestOperationManager.m */,
+				6543734D197F0CE3009A2593 /* AFHTTPSessionManager.h */,
+				6543734E197F0CE3009A2593 /* AFHTTPSessionManager.m */,
+				6543734F197F0CE3009A2593 /* AFNetworking.h */,
+				65437350197F0CE3009A2593 /* AFNetworkReachabilityManager.h */,
+				65437351197F0CE3009A2593 /* AFNetworkReachabilityManager.m */,
+				65437352197F0CE3009A2593 /* AFSecurityPolicy.h */,
+				65437353197F0CE3009A2593 /* AFSecurityPolicy.m */,
+				65437354197F0CE3009A2593 /* AFURLConnectionOperation.h */,
+				65437355197F0CE3009A2593 /* AFURLConnectionOperation.m */,
+				65437356197F0CE3009A2593 /* AFURLRequestSerialization.h */,
+				65437357197F0CE3009A2593 /* AFURLRequestSerialization.m */,
+				65437358197F0CE3009A2593 /* AFURLResponseSerialization.h */,
+				65437359197F0CE3009A2593 /* AFURLResponseSerialization.m */,
+				6543735A197F0CE3009A2593 /* AFURLSessionManager.h */,
+				6543735B197F0CE3009A2593 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		65437365197F0D17009A2593 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				203CFA6018077C8700197689 /* MainViewController.h */,
+				203CFA6118077C8700197689 /* MainViewController.m */,
+				20B696151809092900C7933F /* DetailsViewController.h */,
+				20B696161809092900C7933F /* DetailsViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +259,7 @@
 		203CFA09180777AC00197689 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Mateo Olaya Bernal";
 			};
 			buildConfigurationList = 203CFA0C180777AC00197689 /* Build configuration list for PBXProject "Mapa EAFIT" */;
@@ -224,7 +287,7 @@
 				203CFA1F180777AC00197689 /* InfoPlist.strings in Resources */,
 				203CFA27180777AC00197689 /* Images.xcassets in Resources */,
 				203CFA5F18077C5200197689 /* Storyboard.storyboard in Resources */,
-				59035F8618084D5E00842AF2 /* GoogleMaps.bundle in Resources */,
+				65437347197F0C91009A2593 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,11 +298,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65437361197F0CE3009A2593 /* AFURLConnectionOperation.m in Sources */,
+				6543735C197F0CE3009A2593 /* AFHTTPRequestOperation.m in Sources */,
+				6543735F197F0CE3009A2593 /* AFNetworkReachabilityManager.m in Sources */,
+				65437364197F0CE3009A2593 /* AFURLSessionManager.m in Sources */,
+				65437362197F0CE3009A2593 /* AFURLRequestSerialization.m in Sources */,
 				203CFA25180777AC00197689 /* AppDelegate.m in Sources */,
+				65437363197F0CE3009A2593 /* AFURLResponseSerialization.m in Sources */,
 				20B696171809092900C7933F /* DetailsViewController.m in Sources */,
 				20B696141808E02A00C7933F /* CMCore.m in Sources */,
+				6543735D197F0CE3009A2593 /* AFHTTPRequestOperationManager.m in Sources */,
+				65437360197F0CE3009A2593 /* AFSecurityPolicy.m in Sources */,
 				203CFA6218077C8700197689 /* MainViewController.m in Sources */,
 				203CFA21180777AC00197689 /* main.m in Sources */,
+				6543735E197F0CE3009A2593 /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +333,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -300,7 +371,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -336,9 +406,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/molayab/Developer/Xcode\\ Projects/Mapa\\ EAFIT",
-					"/Users/molayab/Developer/Xcode\\ Projects/GoogleMaps-iOS-EAFIT",
+					/Users/molayab/Developer/Xcode,
+					Projects/Mapa,
+					EAFIT,
+					/Users/molayab/Developer/Xcode,
+					"Projects/GoogleMaps-iOS-EAFIT",
 					"/Users/alejocram/Documents/iOSProjects/GoogleMaps-iOS-EAFIT",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mapa EAFIT/Mapa EAFIT-Prefix.pch";
@@ -357,9 +431,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/molayab/Developer/Xcode\\ Projects/Mapa\\ EAFIT",
-					"/Users/molayab/Developer/Xcode\\ Projects/GoogleMaps-iOS-EAFIT",
+					/Users/molayab/Developer/Xcode,
+					Projects/Mapa,
+					EAFIT,
+					/Users/molayab/Developer/Xcode,
+					"Projects/GoogleMaps-iOS-EAFIT",
 					"/Users/alejocram/Documents/iOSProjects/GoogleMaps-iOS-EAFIT",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mapa EAFIT/Mapa EAFIT-Prefix.pch";
